@@ -1,0 +1,20 @@
+[
+  {
+    "company":  "Zipdin",
+    "title": "Full-Stack Developer",
+    "description": "0 years working as Full-Stack Developer, focusing in Angular and Java. I advanced in the developer career very quickly, for being very hardworking and dedicated in my duties.",
+    "date": "08/02/2021"
+  },
+  {
+    "company":  "Zipdin",
+    "title": "Junior Developer",
+    "description": "1 years working as Full-Stack Developer, focusing in Angular and Java. I advanced in the developer career very quickly, for being very hardworking and dedicated in my duties.",
+    "date": "08/02/2021"
+  },
+  {
+    "company":  "Zipdin",
+    "title": "Internship",
+    "description": "2 years working as Full-Stack Developer, focusing in Angular and Java. I advanced in the developer career very quickly, for being very hardworking and dedicated in my duties.",
+    "date": "08/02/2021"
+  }
+]

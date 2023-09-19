@@ -1,14 +1,16 @@
 <div class="wrapper">
-  <h2>Experiences</h2>
+  <h2>Work Experiences</h2>
   
-  <div>
-    <h4>Zipdin</h4>
-    <ul>
-      <li>Full Stack Developer</li>
-      <li>Junior Developer</li>
-      <li>Internship</li>
-    </ul>
-
-    //TODO Como vou vincular os itens das listas para as respectivas informações, devo usar ngIf? pode ser uma boa saida.
+  <div class="job-list" >
+    <div class="title-list">
+      <div class="title-item" *ngFor="let job of jobList; index as i" (click)="jobSelected(i)" tabindex="1" >
+        <h3>{{job.title}}</h3>
+      </div>
+    </div>
+    
+    <div class="job-item">
+      <p>{{description}}</p>
+    </div>
   </div>
+  
 </div>
